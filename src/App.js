@@ -5,6 +5,7 @@ import { ethers } from 'ethers'
 import Navigation from './components/Navigation'
 import Section from './components/Section'
 import Product from './components/Product'
+import Footer from './components/Footer'
 
 // ABIs
 import Dappazon from './abis/Dappazon.json'
@@ -54,9 +55,9 @@ function App() {
     setToys(toys)
 
 
-    console.log("Electronics:", electronics);
-  console.log("Clothing:", clothing);
-  console.log("Toys:", toys);
+  // console.log("Electronics:", electronics);
+  // console.log("Clothing:", clothing);
+  // console.log("Toys:", toys);
 
 
   }
@@ -68,20 +69,26 @@ function App() {
   return (
     <div>
       <Navigation account={account} setAccount={setAccount} />
+      <br>
+      </br>
+      
 
-      <h2>Dappazon Best Sellers</h2>
+      {/* <h2>Digital Market</h2> */}
 
-      {electronics && clothing && toys && (
+      {                      electronics && clothing && toys && (
         <>
-          <Section title={"Clothing & Jewelry"} items={clothing} togglePop={togglePop} />
-          <Section title={"Electronics & Gadgets"} items={electronics} togglePop={togglePop} />
-          <Section title={"Toys & Gaming"} items={toys} togglePop={togglePop} />
+          <Section title={"Life Style Brands"} items={clothing} togglePop={togglePop} />
+          <Section title={"Electronics"} items={electronics} togglePop={togglePop} />
+          <Section title={"Toys"} items={toys} togglePop={togglePop} />
         </>
       )}
 
       {toggle && (
         <Product item={item} provider={provider} account={account} dappazon={dappazon} togglePop={togglePop} />
       )}
+      
+      <Footer/>
+
     </div>
   );
 }

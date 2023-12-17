@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Camera",
-      "category": "electronics",
+      "category": "Health Care",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
       "price": "1",
       "rating": 4,
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Drone",
-      "category": "electronics",
+      "category": "Health Care",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
       "price": "2",
       "rating": 5,
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Headset",
-      "category": "electronics",
+      "category": "Health Care",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
       "price": "0.25",
       "rating": 2,
@@ -30,8 +30,8 @@
     {
       "id": 4,
       "name": "Shoes",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
+      "category": "Services",
+      "image": "https://gateway.pinata.cloud/ipfs/QmejgWiht4ndkDHqa5zHMDcxYFFnSWZc82azHCX3MEndC5",
       "price": "0.25",
       "rating": 5,
       "stock": 3
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "Sunglasses",
-      "category": "clothing",
+      "category": "Services",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
       "price": "0.10",
       "rating": 4,
